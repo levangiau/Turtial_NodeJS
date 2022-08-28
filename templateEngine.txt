@@ -1,0 +1,27 @@
+======================================== Ngày học: 28/08/2022 ======================================================
+Những chú ý khi học về Template Engine:
+ + Thư viện expres-handlebars (v6.0.6): hiện tại khi dùng phải thêm đuôi ".engine" vào thì mới chạy được
+ nếu không thì thông báo lỗi "... is not a funcion". Khác thư viện < v.6 ở điểm là khi dùng thì không cần phải
+ thêm đuôi ".engine" như version mới. 
+ + Khi dùng:
+    app.engine('handlebars', handlebars.engine());
+    app.set('view engine', 'handlebars');
+==>> khi dùng engine này mặc định thì những file này phải khai báo có đuôi là "<name_file>.handlebars";
+    app.engine('hbs', handlebars.engine({ extname: '.hbs'}));
+    app.set('view engine', 'hbs');
+==>> khi mở rộng lại đuôi file ".hbs" thì những file nào phải khai báo có đuôi là "<name_file>.hbs"
+======================================End Ngày học: 28/08/2022 ====================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Dịch sang tiếng Anh<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+=========================================== Date: 28/08/2022 ======================================================
+Tips for learning about a Template Engine:
+  + library express-handlebars(v6.0.6): Current when using it, you must add the ".engine" extension to run it. 
+Otherwise it will give you an error "... is not a function".Different from the library < v.6 in that it is not 
+necessary to use it add ".engine" as the new version.
+  + When use it:
+    app.engine('handlebars', handlebars.engine());
+    app.set('view engine', 'handlebars');
+==>> When using engine default then all file must add extension: "<name_file>.handlebars";  
+    app.engine('hbs', handlebars.engine({ extname: '.hbs'}));
+    app.set('view engine', 'hbs');
+==>> When extending file extension with file ".hbs" then all file must add extension:"<name_file>.hbs";  
