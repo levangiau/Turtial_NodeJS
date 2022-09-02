@@ -25,3 +25,23 @@ necessary to use it add ".engine" as the new version.
     app.engine('hbs', handlebars.engine({ extname: '.hbs'}));
     app.set('view engine', 'hbs');
 ==>> When extending file extension with file ".hbs" then all file must add extension:"<name_file>.hbs";  
+===========================================End Date: 28/08/2022 ===================================================
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+======================================== Ngày học: 02/09/2022 =====================================================
+Những chú ý khi setup file và scss:
+ + Khi setup đường dẫn tĩnh thì những tất cả những link sau khi vào thư mục này chỉ cần dùng "/" thì mặc định hiểu
+đường dẫn này sẽ theo như setup mà mình mặc định.
+ + Thư viện nodemon có thể tự tùy chỉnh lại những file cần render lại theo ý muốn của mình.(xem kỹ thư viện nodemon)
+ + Thư viện node-sass tùy chỉnh những style của html và tạo ra file css để trang web có thể dùng mà không cần viết
+trực tiếp trên file.css này. (Xem kỹ thư viện node-sass).
+======================================End Ngày học: 02/09/2022 ====================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Dịch sang tiếng Anh<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+=========================================== Date: 02/09/2022 ======================================================
+Tips for learning about setup static file and scss:
+ + When setting static path, all links after entering this directory just use "/" to understand by default. This path
+will follow my default settings.
+ + Nodemon library can automatically edit the files that need to be re-rendered as you like.(see the library nodemon)
+ + Node-sass library can customize the style of html and generates css file so the website can be used without writting.
+Directly on this css file.(see the library Node-sass)

@@ -4,6 +4,9 @@ const handlebars = require('express-handlebars');
 const path = require('path');
 const app = express();
 const port = 3000;
+
+// setup static file and scss
+app.use(express.static(path.join(__dirname, 'public')));
 // Http logger
 app.use(morgan('combined'));
 // Template engine defaul khi tạo
