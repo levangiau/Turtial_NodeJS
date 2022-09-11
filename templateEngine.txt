@@ -45,3 +45,26 @@ will follow my default settings.
  + Nodemon library can automatically edit the files that need to be re-rendered as you like.(see the library nodemon)
  + Node-sass library can customize the style of html and generates css file so the website can be used without writting.
 Directly on this css file.(see the library Node-sass)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+======================================== Ngày học: 11/09/2022 =====================================================
+Những chú ý khi học về GET và POST method:
+ + Mặc định form trong html sẽ nhận phương thức là GET.
+ + Khi sử dụng phương thức là GET thì điều kiện query sẽ hiển thị trên thanh URL.
+ + Dữ liệu nhận được trên server là "Query parameter" khi sử dụng phương thức là GET.
+ + Khi sử dụng phương thức POST thì điều kiện truy vấn sẽ không hiển thị trên thanh URL => giúp cho người dùng bảo mật
+được thông tin. VD: khi đăng nhập hoặc nhập tài khoản ngân hàng,....
+ + Dữ liệu nhận được trên server là "Form data" khi sử dụng phương thức là POST.
+ + Express từ phiên bản >= 4.16 khi sử dụng thì không cần phải import body parser vào ứng dụng dự án nữa. Mà khi dùng
+chỉ cần sử dụng express.urlencoded
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Dịch sang tiếng Anh<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+=========================================== Date: 11/09/2022 ======================================================
+Tips for learning about method GET and POST:
+ + By default,Form of HTML will receive the method GET.
+ + When using the method GET,the query condition will be displayed in the URL bar.
+ + The data receive on Server is "Query parameter" then using the GET method.
+ + When using the method POSTT,the query condition will be not displayed in the URL bar 
+ => it help secure user information
+ + The data receive on Server is "Form parameter" then using the POST method.
+ + Express from version >= 4.16 when used, there is no need to import "bory-parser" into the application and 
+When using just use express.urlencoded.
